@@ -1,6 +1,3 @@
-from os import device_encoding
-
-
 def CheckEven(number):
 
     if number % 2 == 0:
@@ -8,16 +5,17 @@ def CheckEven(number):
 
     return False
 
-def SeperateListsByProperties(setting, list): # 0 = Even only, 1 = Odd Only
-    if setting == 0:
-        for i in list:
-            retval = CheckEven(i)
-            print(retval, i)
-            if not retval:
-                list.remove(i)
+def FilterEven(list):
 
-    return list
+    return [n for n in list if CheckEven(n)]
 
+def CalculateSumOfList(list):
+    total = 0
+
+    for i in list:
+        total = total + i
+
+    return total
 
 def FibonacciSequence(list, base_case):
 
@@ -31,6 +29,7 @@ def FibonacciSequence(list, base_case):
     return FibonacciSequence(list, base_case)
 
 Sequence = FibonacciSequence([1,2], 4000000)
-EvenNumbers = SeperateListsByProperties(0, Sequence)
+EvenNumbers = FilterEven(Sequence)
+Total = CalculateSumOfList(EvenNumbers)
 
-print(EvenNumbers)
+print(Total)
