@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a56471cf-3e4a-4500-bd33-ff978ca89a7f" name="Changes" comment="New Directory">
+    <list default="true" id="a56471cf-3e4a-4500-bd33-ff978ca89a7f" name="Changes" comment="Resolved readability and removed unncessary functionality when there is inbuilt functions.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codebase.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +78,11 @@
       <workItem from="1759155326778" duration="2722000" />
       <workItem from="1759222797919" duration="675000" />
       <workItem from="1759251285773" duration="20000" />
+      <workItem from="1759344318871" duration="4086000" />
+      <workItem from="1759399467238" duration="723000" />
+      <workItem from="1759758924568" duration="2178000" />
+      <workItem from="1759927905488" duration="12000" />
+      <workItem from="1760954339200" duration="307000" />
     </task>
     <task id="LOCAL-00001" summary="New Directory">
       <option name="closed" value="true" />
@@ -86,7 +92,39 @@
       <option name="project" value="LOCAL" />
       <updated>1759222822778</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changed Directory Name">
+      <option name="closed" value="true" />
+      <created>1759344354369</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759344354369</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Finished Challenge, Resolved Critical Bug regarding filtering of even numbers not being returned correctly.">
+      <option name="closed" value="true" />
+      <created>1759346154458</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759346154458</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Changed File Directory &amp; updated variable naming to be more readable">
+      <option name="closed" value="true" />
+      <created>1760954483118</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1760954483118</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Resolved readability and removed unncessary functionality when there is inbuilt functions.">
+      <option name="closed" value="true" />
+      <created>1760954644542</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1760954644542</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,9 +143,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New Directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Directory" />
+    <MESSAGE value="Changed Directory Name" />
+    <MESSAGE value="Finished Challenge, Resolved Critical Bug regarding filtering of even numbers not being returned correctly." />
+    <MESSAGE value="Changed File Directory &amp; updated variable naming to be more readable" />
+    <MESSAGE value="Resolved readability and removed unncessary functionality when there is inbuilt functions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Resolved readability and removed unncessary functionality when there is inbuilt functions." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonChallenges$EvenFibonacciNumbers.coverage" NAME="EvenFibonacciNumbers Coverage Results" MODIFIED="1759156929375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Codebase" />
+    <SUITE FILE_PATH="coverage/PythonChallenges$EvenFibonacciNumbers.coverage" NAME="EvenFibonacciNumbers Coverage Results" MODIFIED="1759346099838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Problems" />
   </component>
 </project>
