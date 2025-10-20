@@ -19,17 +19,18 @@ def CalculateSumOfList(list):
 
 def FibonacciSequence(list, base_case):
 
-    last_number = list[::-1][0] + list[::-1][1]
+    next_number = list[::-1][0] + list[::-1][1]
 
-    if last_number < base_case: ## Checks to see if the last number exceeds the base_case
-        list.append(last_number)
+    if next_number < base_case: ## Checks to see if the last number exceeds the base_case
+        list.append(next_number)
     else:
         return list
 
     return FibonacciSequence(list, base_case)
 
-Sequence = FibonacciSequence([1,2], 4000000)
-EvenNumbers = FilterEven(Sequence)
-Total = CalculateSumOfList(EvenNumbers)
+if __name__ == "__main__":
+    Sequence = FibonacciSequence([1,2], 4000000)
+    EvenNumbers = FilterEven(Sequence)
+    Total = CalculateSumOfList(EvenNumbers)
 
-print(Total)
+    print(Total)
