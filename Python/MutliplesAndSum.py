@@ -9,16 +9,9 @@ def CheckMultiple(number, multiples_list):
 
     return False
 
-def CalculateSumOfList(list):
-    total = 0
 
-    for i in list:
-        total = total + i
+if __name__ == "__main__":
 
-    return total
-
-isRunning = True
-while isRunning:
     multiples_list = [3, 5]
     numbers_in_multiples = []
     max_number = 1000
@@ -29,7 +22,7 @@ while isRunning:
         if retval:
             numbers_in_multiples.append(i)
 
-    sum_total = CalculateSumOfList(numbers_in_multiples)
+    sum_total = sum(numbers_in_multiples)
 
     print(f"The sum of all the multiples of {multiples_list} below {max_number} is {sum_total}")
 
